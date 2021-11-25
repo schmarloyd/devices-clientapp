@@ -1,0 +1,38 @@
+#modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(143, 143, 143, 0.8);
+    z-index: 9999;
+    transition: all ease 0.3s;
+
+    #modal-wrap {
+        margin: 8em auto 0 auto;
+        min-height: 300px;
+        max-width: 500px;
+        border: 1px solid #cdcdcd;
+        background-color: white;
+        position: relative;
+
+        .title {
+            border-bottom: 1px solid #cdcdcd;
+            padding: 10px;
+        }
+
+        .close {
+            position: absolute;
+            right: 4%;
+            top: 8%;
+            z-index: 100;
+            background: transparent;
+            border: none;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0;
+            min-width: 0;    
+        }
+    }
+}

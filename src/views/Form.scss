@@ -1,0 +1,52 @@
+#add-update-form {
+    width: 100%;
+
+    ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            padding: 10px 20px;
+
+            .label {
+                width: 25%;
+                display: inline-block;
+                line-height: 36px;
+            }
+
+            input, select {
+                width: 73%;
+                font-size: 16px;
+            }
+
+            select {
+                width: 74%;
+            }
+
+            button {
+                width: 100%;
+                height: 36px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+#confirm-form {
+    p { 
+        text-align: center;
+    }
+
+    .panel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            margin: 0 4px;
+        }
+    }
+}
